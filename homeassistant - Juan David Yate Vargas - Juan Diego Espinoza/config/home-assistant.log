@@ -1,0 +1,38 @@
+2025-05-30 09:27:33.283 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2025-05-30 09:27:41.032 ERROR (MainThread) [homeassistant.components.mqtt.client] Failed to connect to MQTT server due to exception: timed out
+2025-05-30 10:02:45.822 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_5] is still running at shutdown: File "/usr/local/lib/python3.13/threading.py", line 1012, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.13/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.13/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 93, in _worker
+    work_item.run()
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/paho/mqtt/client.py", line 1598, in reconnect
+    self._sock = self._create_socket()
+  File "/usr/local/lib/python3.13/site-packages/paho/mqtt/client.py", line 4609, in _create_socket
+    sock = self._create_socket_connection()
+  File "/usr/local/lib/python3.13/site-packages/paho/mqtt/client.py", line 4640, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/local/lib/python3.13/socket.py", line 849, in create_connection
+    sock.connect(sa)
+2025-05-30 10:02:46.811 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_5] is still running at shutdown: File "/usr/local/lib/python3.13/threading.py", line 1012, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.13/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.13/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 93, in _worker
+    work_item.run()
+  File "/usr/local/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.13/site-packages/paho/mqtt/client.py", line 1598, in reconnect
+    self._sock = self._create_socket()
+  File "/usr/local/lib/python3.13/site-packages/paho/mqtt/client.py", line 4609, in _create_socket
+    sock = self._create_socket_connection()
+  File "/usr/local/lib/python3.13/site-packages/paho/mqtt/client.py", line 4640, in _create_socket_connection
+    return socket.create_connection(addr, timeout=self._connect_timeout, source_address=source)
+  File "/usr/local/lib/python3.13/socket.py", line 849, in create_connection
+    sock.connect(sa)

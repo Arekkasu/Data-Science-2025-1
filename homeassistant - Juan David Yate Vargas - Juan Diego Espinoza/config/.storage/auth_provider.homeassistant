@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "nidome4",
+        "password": "JDJiJDEyJDJRUmlBTnEvbVRYWUhZSGlPdUx1d09kbnhDMDY3bHp0UXJpWDV0c3Nzck9LOGkuNEI2OG1T"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "sections": [
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading": "Nueva sección"
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    "input_button.tomar_foto"
+                  ]
+                }
+              ]
+            }
+          ],
+          "cards": [],
+          "header": {
+            "card": {
+              "type": "markdown",
+              "content": "# Hola \n",
+              "text_only": true
+            },
+            "layout": "responsive",
+            "badges_position": "bottom",
+            "badges_wrap": "wrap"
+          },
+          "badges": [
+            {
+              "type": "entity",
+              "show_name": false,
+              "show_state": true,
+              "show_icon": true,
+              "entity": "sensor.backup_backup_manager_state"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+- platform: mqtt
+  name: "Temperatura Invernadero"
+  state_topic: "invernadero/sensores"
+  unit_of_measurement: "°C"
+  device_class: temperature
+  value_template: "{{ value_json.temperatura }}"
+
+- platform: mqtt
+  name: "Humedad Invernadero"
+  state_topic: "invernadero/sensores"
+  unit_of_measurement: "%"
+  device_class: humidity
+  value_template: "{{ value_json.humedad }}"
+
+- platform: mqtt
+  name: "Modo Invernadero"
+  state_topic: "invernadero/sensores"
+  value_template: "{{ value_json.modo }}"
+  icon: mdi:robot
+

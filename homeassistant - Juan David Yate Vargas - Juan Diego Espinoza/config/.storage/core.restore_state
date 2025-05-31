@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-05-30T14:27:34.618024+00:00","last_reported":"2025-05-30T14:27:34.618024+00:00","last_updated":"2025-05-30T14:27:34.618024+00:00","context":{"id":"01JWGSEMJTP3BV7H1VZJMPT8SN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-30T15:02:43.225511+00:00"
+    },
+    {
+      "state": {"entity_id":"script.enviar_comando_camara","state":"off","attributes":{"last_triggered":"2025-05-28T21:14:49.536398+00:00","mode":"single","current":0,"friendly_name":"Enviar comando 'toma foto' a cámara"},"last_changed":"2025-05-30T14:27:35.106073+00:00","last_reported":"2025-05-30T14:27:35.106073+00:00","last_updated":"2025-05-30T14:27:35.106073+00:00","context":{"id":"01JWGSEN22ATER0PKN08RBS6ZH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-30T15:02:43.225511+00:00"
+    },
+    {
+      "state": {"entity_id":"person.nidome4","state":"unknown","attributes":{"editable":true,"id":"nidome4","device_trackers":[],"user_id":"f72e1ea3ae7148e0a5668a18bdf803dc","friendly_name":"nidome4"},"last_changed":"2025-05-30T14:27:35.116712+00:00","last_reported":"2025-05-30T14:27:41.035372+00:00","last_updated":"2025-05-30T14:27:41.035372+00:00","context":{"id":"01JWGSETVBS6Y8AY2151F3BBNC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-30T15:02:43.225511+00:00"
+    },
+    {
+      "state": {"entity_id":"input_button.tomar_foto","state":"2025-05-30T15:01:45.119032+00:00","attributes":{"editable":true,"icon":"mdi:camera","friendly_name":"Tomar Foto"},"last_changed":"2025-05-30T15:01:45.119060+00:00","last_reported":"2025-05-30T15:01:45.119060+00:00","last_updated":"2025-05-30T15:01:45.119060+00:00","context":{"id":"01JWGVD70YYXP27J6R96HNW0HW","parent_id":null,"user_id":"f72e1ea3ae7148e0a5668a18bdf803dc"}},
+      "extra_data": null,
+      "last_seen": "2025-05-30T15:02:43.225511+00:00"
+    },
+    {
+      "state": {"entity_id":"automation.tomar_foto","state":"on","attributes":{"id":"1748438581640","last_triggered":null,"mode":"single","current":0,"friendly_name":"Tomar foto"},"last_changed":"2025-05-30T14:27:36.036638+00:00","last_reported":"2025-05-30T14:27:36.036638+00:00","last_updated":"2025-05-30T14:27:36.036638+00:00","context":{"id":"01JWGSENZ4D8PHAE5MJ2H59Z6S","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-30T15:02:43.225511+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-05-30T14:27:36.044451+00:00","last_reported":"2025-05-30T14:27:36.044451+00:00","last_updated":"2025-05-30T14:27:36.044451+00:00","context":{"id":"01JWGSENZCTJN7HVMMXS1JEM2F","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-30T15:02:43.225511+00:00"
+    },
+    {
+      "state": {"entity_id":"script.activar_modo_automatico","state":"off","attributes":{"last_triggered":"2025-05-28T18:24:24.610772+00:00","mode":"single","current":0,"friendly_name":"Activar Modo Automático"},"last_changed":"2025-05-28T18:24:24.612288+00:00","last_reported":"2025-05-28T18:24:24.612288+00:00","last_updated":"2025-05-28T18:24:24.612288+00:00","context":{"id":"01JWC26VH22KGAZCDW3F97E4RB","parent_id":null,"user_id":"f72e1ea3ae7148e0a5668a18bdf803dc"}},
+      "extra_data": null,
+      "last_seen": "2025-05-28T20:25:36.126013+00:00"
+    },
+    {
+      "state": {"entity_id":"script.encender_bombilla_manual","state":"off","attributes":{"last_triggered":"2025-05-28T18:24:11.855216+00:00","mode":"single","current":0,"friendly_name":"Encender Bombilla Manual"},"last_changed":"2025-05-28T18:24:11.856842+00:00","last_reported":"2025-05-28T18:24:11.856842+00:00","last_updated":"2025-05-28T18:24:11.856842+00:00","context":{"id":"01JWC26F2EV57YG22VTCY0MNFY","parent_id":null,"user_id":"f72e1ea3ae7148e0a5668a18bdf803dc"}},
+      "extra_data": null,
+      "last_seen": "2025-05-28T20:25:36.126013+00:00"
+    },
+    {
+      "state": {"entity_id":"script.apagar_bombilla_manual","state":"off","attributes":{"last_triggered":"2025-05-28T18:24:17.439657+00:00","mode":"single","current":0,"friendly_name":"Apagar Bombilla Manual"},"last_changed":"2025-05-28T18:24:17.441390+00:00","last_reported":"2025-05-28T18:24:17.441390+00:00","last_updated":"2025-05-28T18:24:17.441390+00:00","context":{"id":"01JWC26MGZFA9JR3EQMHFK339Q","parent_id":null,"user_id":"f72e1ea3ae7148e0a5668a18bdf803dc"}},
+      "extra_data": null,
+      "last_seen": "2025-05-28T20:25:36.126013+00:00"
+    },
+    {
+      "state": {"entity_id":"script.bombilla_manual_on","state":"off","attributes":{"last_triggered":null,"mode":"single","current":0,"friendly_name":"Encender Bombilla Manual"},"last_changed":"2025-05-28T16:45:32.290738+00:00","last_reported":"2025-05-28T16:45:32.290738+00:00","last_updated":"2025-05-28T16:45:32.290738+00:00","context":{"id":"01JWBWHT82AX4PDVX5BM15DAF4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-28T16:54:52.787482+00:00"
+    },
+    {
+      "state": {"entity_id":"script.bombilla_manual_off","state":"off","attributes":{"last_triggered":null,"mode":"single","current":0,"friendly_name":"Apagar Bombilla Manual"},"last_changed":"2025-05-28T16:45:32.290937+00:00","last_reported":"2025-05-28T16:45:32.290937+00:00","last_updated":"2025-05-28T16:45:32.290937+00:00","context":{"id":"01JWBWHT82G8T6RS7ZPXB5KMEX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-05-28T16:54:52.787482+00:00"
+    }
+  ]
+}

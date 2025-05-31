@@ -1,0 +1,9 @@
+enviar_comando_camara:
+  alias: Enviar comando 'toma foto' a cámara
+  sequence:
+    - service: mqtt.publish
+      data:
+        topic: "camara/comando"
+        payload: "toma foto"
+  mode: single
+

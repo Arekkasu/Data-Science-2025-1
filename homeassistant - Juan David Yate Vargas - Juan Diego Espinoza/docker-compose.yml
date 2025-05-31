@@ -1,0 +1,29 @@
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    volumes:
+      - ./config:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - "8123:8123"
+    environment:
+      - TZ=America/Bogota
+    depends_on:
+      - mosquitto  # Opcional: asegura que Mosquitto inicie primero
+
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto:latest
+    restart: unless-stopped
+    ports:
+      - "1883:1883"    # Puerto MQTT estándar
+      - "9001:9001"    # Puerto para MQTT over WebSocket (opcional)
+    volumes:
+      - ./mosquitto/config:/mosquitto/config  # Configuración persistente
+      - ./mosquitto/data:/mosquitto/data      # Base de datos MQTT
+      - ./mosquitto/log:/mosquitto/log        # Logs
+    environment:
+      - TZ=America/Bogota

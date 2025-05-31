@@ -1,0 +1,459 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "trace.saved_traces",
+  "data": {
+    "script.enviar_comando_camara": [
+      {
+        "extended_dict": {
+          "last_step": "sequence/0",
+          "run_id": "b22d5e3be91e6112e3a41f396e6fd066",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-28T20:55:12.666475+00:00",
+            "finish": "2025-05-28T20:55:12.668549+00:00"
+          },
+          "domain": "script",
+          "item_id": "enviar_comando_camara",
+          "trace": {
+            "sequence/0": [
+              {
+                "path": "sequence/0",
+                "timestamp": "2025-05-28T20:55:12.666644+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "script.enviar_comando_camara",
+                    "state": "off",
+                    "attributes": {
+                      "last_triggered": "2025-05-28T20:53:15.681580+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Enviar comando 'toma foto' a c\u00e1mara"
+                    },
+                    "last_changed": "2025-05-28T20:53:15.682872+00:00",
+                    "last_reported": "2025-05-28T20:53:15.682872+00:00",
+                    "last_updated": "2025-05-28T20:53:15.682872+00:00",
+                    "context": {
+                      "id": "01JWCAQD91WFKRKGCJGPV15VPW",
+                      "parent_id": null,
+                      "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+                    }
+                  },
+                  "context": {
+                    "id": "01JWCATZGTGHGW34S0H2DFWQN9",
+                    "parent_id": null,
+                    "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "mqtt",
+                    "service": "publish",
+                    "service_data": {
+                      "topic": "camara/comando",
+                      "payload": "toma foto"
+                    },
+                    "target": {}
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Enviar comando 'toma foto' a c\u00e1mara",
+            "sequence": [
+              {
+                "data": {
+                  "topic": "camara/comando",
+                  "payload": "toma foto"
+                },
+                "action": "mqtt.publish"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JWCATZGTGHGW34S0H2DFWQN9",
+            "parent_id": null,
+            "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+          }
+        },
+        "short_dict": {
+          "last_step": "sequence/0",
+          "run_id": "b22d5e3be91e6112e3a41f396e6fd066",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-28T20:55:12.666475+00:00",
+            "finish": "2025-05-28T20:55:12.668549+00:00"
+          },
+          "domain": "script",
+          "item_id": "enviar_comando_camara"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "sequence/0",
+          "run_id": "d7b9c3216f6dc435419848a9d2d115ac",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-28T20:55:26.114388+00:00",
+            "finish": "2025-05-28T20:55:26.116338+00:00"
+          },
+          "domain": "script",
+          "item_id": "enviar_comando_camara",
+          "trace": {
+            "sequence/0": [
+              {
+                "path": "sequence/0",
+                "timestamp": "2025-05-28T20:55:26.114551+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "script.enviar_comando_camara",
+                    "state": "off",
+                    "attributes": {
+                      "last_triggered": "2025-05-28T20:55:12.666537+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Enviar comando 'toma foto' a c\u00e1mara"
+                    },
+                    "last_changed": "2025-05-28T20:55:12.668129+00:00",
+                    "last_reported": "2025-05-28T20:55:12.668129+00:00",
+                    "last_updated": "2025-05-28T20:55:12.668129+00:00",
+                    "context": {
+                      "id": "01JWCATZGTGHGW34S0H2DFWQN9",
+                      "parent_id": null,
+                      "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+                    }
+                  },
+                  "context": {
+                    "id": "01JWCAVCN2JB73HWSY84GZ608K",
+                    "parent_id": null,
+                    "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "mqtt",
+                    "service": "publish",
+                    "service_data": {
+                      "topic": "camara/comando",
+                      "payload": "toma foto"
+                    },
+                    "target": {}
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Enviar comando 'toma foto' a c\u00e1mara",
+            "sequence": [
+              {
+                "data": {
+                  "topic": "camara/comando",
+                  "payload": "toma foto"
+                },
+                "action": "mqtt.publish"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JWCAVCN2JB73HWSY84GZ608K",
+            "parent_id": null,
+            "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+          }
+        },
+        "short_dict": {
+          "last_step": "sequence/0",
+          "run_id": "d7b9c3216f6dc435419848a9d2d115ac",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-28T20:55:26.114388+00:00",
+            "finish": "2025-05-28T20:55:26.116338+00:00"
+          },
+          "domain": "script",
+          "item_id": "enviar_comando_camara"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "sequence/0",
+          "run_id": "850841f0a756e8ff3eb1194901001157",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-28T20:55:47.383126+00:00",
+            "finish": "2025-05-28T20:55:47.384818+00:00"
+          },
+          "domain": "script",
+          "item_id": "enviar_comando_camara",
+          "trace": {
+            "sequence/0": [
+              {
+                "path": "sequence/0",
+                "timestamp": "2025-05-28T20:55:47.383302+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "script.enviar_comando_camara",
+                    "state": "off",
+                    "attributes": {
+                      "last_triggered": "2025-05-28T20:55:26.114447+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Enviar comando 'toma foto' a c\u00e1mara"
+                    },
+                    "last_changed": "2025-05-28T20:55:26.115794+00:00",
+                    "last_reported": "2025-05-28T20:55:26.115794+00:00",
+                    "last_updated": "2025-05-28T20:55:26.115794+00:00",
+                    "context": {
+                      "id": "01JWCAVCN2JB73HWSY84GZ608K",
+                      "parent_id": null,
+                      "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+                    }
+                  },
+                  "context": {
+                    "id": "01JWCAW1DQ1Y1FR36APW6QWZZT",
+                    "parent_id": null,
+                    "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "mqtt",
+                    "service": "publish",
+                    "service_data": {
+                      "topic": "camara/comando",
+                      "payload": "toma foto"
+                    },
+                    "target": {}
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Enviar comando 'toma foto' a c\u00e1mara",
+            "sequence": [
+              {
+                "data": {
+                  "topic": "camara/comando",
+                  "payload": "toma foto"
+                },
+                "action": "mqtt.publish"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JWCAW1DQ1Y1FR36APW6QWZZT",
+            "parent_id": null,
+            "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+          }
+        },
+        "short_dict": {
+          "last_step": "sequence/0",
+          "run_id": "850841f0a756e8ff3eb1194901001157",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-28T20:55:47.383126+00:00",
+            "finish": "2025-05-28T20:55:47.384818+00:00"
+          },
+          "domain": "script",
+          "item_id": "enviar_comando_camara"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "sequence/0",
+          "run_id": "1c979ac198d1199c16f42739cad6fe9c",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-28T20:55:51.675792+00:00",
+            "finish": "2025-05-28T20:55:51.677828+00:00"
+          },
+          "domain": "script",
+          "item_id": "enviar_comando_camara",
+          "trace": {
+            "sequence/0": [
+              {
+                "path": "sequence/0",
+                "timestamp": "2025-05-28T20:55:51.675959+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "script.enviar_comando_camara",
+                    "state": "off",
+                    "attributes": {
+                      "last_triggered": "2025-05-28T20:55:47.383200+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Enviar comando 'toma foto' a c\u00e1mara"
+                    },
+                    "last_changed": "2025-05-28T20:55:47.384396+00:00",
+                    "last_reported": "2025-05-28T20:55:47.384396+00:00",
+                    "last_updated": "2025-05-28T20:55:47.384396+00:00",
+                    "context": {
+                      "id": "01JWCAW1DQ1Y1FR36APW6QWZZT",
+                      "parent_id": null,
+                      "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+                    }
+                  },
+                  "context": {
+                    "id": "01JWCAW5KV0ZH3N2S36YQFMB26",
+                    "parent_id": null,
+                    "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "mqtt",
+                    "service": "publish",
+                    "service_data": {
+                      "topic": "camara/comando",
+                      "payload": "toma foto"
+                    },
+                    "target": {}
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Enviar comando 'toma foto' a c\u00e1mara",
+            "sequence": [
+              {
+                "data": {
+                  "topic": "camara/comando",
+                  "payload": "toma foto"
+                },
+                "action": "mqtt.publish"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JWCAW5KV0ZH3N2S36YQFMB26",
+            "parent_id": null,
+            "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+          }
+        },
+        "short_dict": {
+          "last_step": "sequence/0",
+          "run_id": "1c979ac198d1199c16f42739cad6fe9c",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-28T20:55:51.675792+00:00",
+            "finish": "2025-05-28T20:55:51.677828+00:00"
+          },
+          "domain": "script",
+          "item_id": "enviar_comando_camara"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "sequence/0",
+          "run_id": "894a3de9a9dac394fd3fdae8b23708bd",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-28T21:14:49.536168+00:00",
+            "finish": "2025-05-28T21:14:49.538996+00:00"
+          },
+          "domain": "script",
+          "item_id": "enviar_comando_camara",
+          "trace": {
+            "sequence/0": [
+              {
+                "path": "sequence/0",
+                "timestamp": "2025-05-28T21:14:49.536580+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "script.enviar_comando_camara",
+                    "state": "off",
+                    "attributes": {
+                      "last_triggered": "2025-05-28T20:55:51.675858+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "friendly_name": "Enviar comando 'toma foto' a c\u00e1mara"
+                    },
+                    "last_changed": "2025-05-28T20:55:51.677072+00:00",
+                    "last_reported": "2025-05-28T20:55:51.677072+00:00",
+                    "last_updated": "2025-05-28T20:55:51.677072+00:00",
+                    "context": {
+                      "id": "01JWCAW5KV0ZH3N2S36YQFMB26",
+                      "parent_id": null,
+                      "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+                    }
+                  },
+                  "context": {
+                    "id": "01JWCBYWT004GYCFCQPAK9F453",
+                    "parent_id": null,
+                    "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "mqtt",
+                    "service": "publish",
+                    "service_data": {
+                      "topic": "camara/comando",
+                      "payload": "toma foto"
+                    },
+                    "target": {}
+                  },
+                  "running_script": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "alias": "Enviar comando 'toma foto' a c\u00e1mara",
+            "sequence": [
+              {
+                "data": {
+                  "topic": "camara/comando",
+                  "payload": "toma foto"
+                },
+                "action": "mqtt.publish"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01JWCBYWT004GYCFCQPAK9F453",
+            "parent_id": null,
+            "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc"
+          }
+        },
+        "short_dict": {
+          "last_step": "sequence/0",
+          "run_id": "894a3de9a9dac394fd3fdae8b23708bd",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2025-05-28T21:14:49.536168+00:00",
+            "finish": "2025-05-28T21:14:49.538996+00:00"
+          },
+          "domain": "script",
+          "item_id": "enviar_comando_camara"
+        }
+      }
+    ]
+  }
+}

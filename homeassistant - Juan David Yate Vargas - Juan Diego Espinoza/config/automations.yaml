@@ -1,0 +1,12 @@
+- id: '1748438581640'
+  alias: Tomar foto
+  description: ''
+  triggers:
+  - entity_id: button.tomar_foto
+    to: pulsado
+    trigger: state
+  actions:
+  - data:
+      topic: camara/comando
+      payload: toma foto
+    action: mqtt.publish

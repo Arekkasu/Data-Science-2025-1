@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "nidome4",
+        "name": "nidome4",
+        "user_id": "f72e1ea3ae7148e0a5668a18bdf803dc",
+        "device_trackers": []
+      }
+    ]
+  }
+}
